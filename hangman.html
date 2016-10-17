@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hangman</title>
+<link rel="stylesheet" type="text/css" href="hangman.css">
+</head>
+<body>
+
+<div id = "gamebox">
+	<div id = "intro">
+		<h1>Welcome to hangman!</h1>
+		<p>INSERT STUFF ABOUT HOW TO PLAY HERE</p>
+		<div id = "controls">
+			<p class = "inline">Difficulty: </p>
+			<select id = "difficulty">
+				<option>Easy</option>
+				<option>Medium</option>
+				<option>Hard</option>
+			</select>
+			<button id = "start">Start</button>
+		</div>
+		<div id = "letters">
+			<button id = "a" class = "letter">A</button>
+			<button id = "b" class = "letter">B</button>
+			<button id = "c" class = "letter">C</button>
+			<button id = "d" class = "letter">D</button>
+			<button id = "e" class = "letter">E</button>
+			<button id = "f" class = "letter">F</button>
+			<button id = "g" class = "letter">G</button>
+			<button id = "h" class = "letter">H</button>
+			<button id = "i" class = "letter">I</button>
+			<button id = "j" class = "letter">J</button>
+			<button id = "k" class = "letter">K</button>
+			<button id = "l" class = "letter">L</button>
+			<button id = "m" class = "letter">M</button>
+			<button id = "n" class = "letter">N</button>
+			<button id = "o" class = "letter">O</button>
+			<button id = "p" class = "letter">P</button>
+			<button id = "q" class = "letter">Q</button>
+			<button id = "r" class = "letter">R</button>
+			<button id = "s" class = "letter">S</button>
+			<button id = "t" class = "letter">T</button>
+			<button id = "u" class = "letter">U</button>
+			<button id = "v" class = "letter">V</button>
+			<button id = "w" class = "letter">W</button>
+			<button id = "x" class = "letter">X</button>
+			<button id = "y" class = "letter">Y</button>
+			<button id = "z" class = "letter">Z</button>
+		</div>
+	</div>
+	<div id = "game">
+		<h1>Word to guess</h1>
+		<p id = "wordToGuess"></p>
+		<p id = "guessesRemaining">Guesses remaining:</p>
+	</div>
+</div>
+
+<script src="hangman.js"></script>
+
+</body>
+</html>

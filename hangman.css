@@ -1,0 +1,51 @@
+/*
+	This is the css file for hangman.html
+*/
+#gamebox
+{
+	width: 70%;
+	height: 400px;
+	padding-left: 2%;
+	padding-right: 2%;
+	margin-left: auto;
+	margin-right:auto;
+	margin-top: 3%;
+	border-style: solid;
+}
+
+#intro
+{
+	width: 48%;
+	height: 100%;
+	float: left;
+	border-right-style: dashed;  
+}
+
+#game
+{
+	margin-left: 52%;
+	width: 48%;
+}
+
+.inline, #start
+{
+	display: inline;
+}
+
+#start 
+{
+	margin-left: 2%;
+}
+
+.letter
+{
+	margin-top: 2%;
+	margin-left: 1%;
+	margin-right: 1%;
+	background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
